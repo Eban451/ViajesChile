@@ -1,0 +1,51 @@
+body,
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo para el título h4 */
+h4 {
+    text-align: center;
+    /* Centra el texto */
+    margin-top: 50px;
+    /* Margen superior */
+    margin-bottom: 50px;
+    /* Margen inferior */
+}
+
+/* Estilo para la línea horizontal */
+hr {
+    background-color: white;
+    /* Color blanco */
+    border: none;
+    /* Sin borde */
+    height: 2px;
+    /* Altura de la línea */
+}
+
+.icon1 {
+    text-align: center;
+    color: white;
+    background-color: #328998;
+    margin-bottom: 10px;
+}
+
+.icon2 {
+    text-align: center;
+    color: white;
+    background-color: #328998;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
