@@ -49,3 +49,60 @@ hr {
     margin-top: 10px;
     margin-bottom: 50px;
 }
+
+.container hr {
+    width: 100%;
+}
+
+.card {
+    margin: 0 20px;
+    background-color: #328998;
+}
+
+
+.card-group {
+    border: 1px black;
+    margin-bottom: 100px;
+}
+
+
+.card-title {
+    font-size: 16pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.card-text {
+    font-size: 12pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+.card:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+
+.card-img-top {
+    padding: 2px;
+}
+
+.col-md-12 {
+    margin-bottom: 20px; /* Agregar un margen inferior al formulario */
+}
+
+.form-container {
+    margin-left: 200px; /* Márgen izquierdo */
+    margin-right: 200px; /* Márgen derecho */
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        margin-left: 0; /* Eliminar márgen izquierdo en dispositivos más pequeños */
+        margin-right: 0; /* Eliminar márgen derecho en dispositivos más pequeños */
+    }
+}
