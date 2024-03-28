@@ -92,23 +92,71 @@ hr {
 }
 
 .col-md-12 {
-    margin-bottom: 20px; /* Agregar un margen inferior al formulario */
+    margin-bottom: 20px;
+    /* Agregar un margen inferior al formulario */
 }
 
 .form-container {
-    margin-left: 120px; /* Márgen izquierdo */
-    margin-right: 120px; /* Márgen derecho */
+    margin-left: 120px;
+    /* Márgen izquierdo */
+    margin-right: 120px;
+    /* Márgen derecho */
 }
 
 @media (max-width: 768px) {
     .form-container {
-        margin-left: 25px; /* Ajusta el margen izquierdo en dispositivos más pequeños */
-        margin-right: 25px; /* Ajusta el margen derecho en dispositivos más pequeños */
+        margin-left: 25px;
+        /* Ajusta el margen izquierdo en dispositivos más pequeños */
+        margin-right: 25px;
+        /* Ajusta el margen derecho en dispositivos más pequeños */
     }
 }
 
 /* Estilo para el botón */
 .form-container button {
-    margin-top: 10px; /* Ajusta el margen superior del botón */
-    margin-bottom: 10px; /* Ajusta el margen inferior del botón */
+    margin-top: 10px;
+    /* Ajusta el margen superior del botón */
+    margin-bottom: 10px;
+    /* Ajusta el margen inferior del botón */
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #328998;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer ul li:first-child {
+    margin-left: 0;
+}
+
+.footer .logoText {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer ul li i {
+    color: #ffffff; /* Color blanco */
+    margin-right: 20px; /* Espacio entre los íconos */
 }
