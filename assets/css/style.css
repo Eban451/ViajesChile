@@ -50,9 +50,13 @@ hr {
     margin-bottom: 50px;
 }
 
+/* Líneas separadoras */
+
 .container hr {
     width: 100%;
 }
+
+/* CARDS */
 
 .card {
     margin: 0 20px;
@@ -91,6 +95,8 @@ hr {
     padding: 2px;
 }
 
+/* Formulario */
+
 .col-md-12 {
     margin-bottom: 20px;
     /* Agregar un margen inferior al formulario */
@@ -112,7 +118,7 @@ hr {
     }
 }
 
-/* Estilo para el botón */
+/* Estilo para el botón enviar formulario */
 .form-container button {
     margin-top: 10px;
     /* Ajusta el margen superior del botón */
@@ -163,6 +169,8 @@ hr {
     /* Espacio entre los íconos */
 }
 
+/* Funcionalidad Navbar transparente y luego color sólido al bajar en la página */
+
 .navbar {
     background-color: transparent !important;
     /* Color de fondo */
@@ -177,6 +185,8 @@ hr {
 .navbar.opaque .navbar-text {
     color: white !important;
 }
+
+/* Ocultar Sección Quien Somos con los párrafos en dispositivos pequeños */
 
 @media (max-width: 767px) {
     .gone {
