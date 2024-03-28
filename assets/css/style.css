@@ -173,8 +173,9 @@ hr {
     background-color: #328998 !important;
 }
 
-.navbar.opaque .navbar-nav .nav-link {
-    color: white;
+.navbar.opaque .navbar-nav .nav-link,
+.navbar.opaque .navbar-text {
+    color: white !important;
 }
 
 @media (max-width: 767px) {
@@ -184,8 +185,9 @@ hr {
 }
 
 @media (max-width: 767px) {
+
     #quienesSomos,
-    #quienesSomos + .container hr {
+    #quienesSomos+.container hr {
         display: none;
     }
 }
