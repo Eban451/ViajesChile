@@ -157,6 +157,35 @@ hr {
 }
 
 .footer ul li i {
-    color: #ffffff; /* Color blanco */
-    margin-right: 20px; /* Espacio entre los íconos */
+    color: #ffffff;
+    /* Color blanco */
+    margin-right: 20px;
+    /* Espacio entre los íconos */
+}
+
+.navbar {
+    background-color: transparent !important;
+    /* Color de fondo */
+    transition: background-color 0.3s ease;
+}
+
+.navbar.opaque {
+    background-color: #328998 !important;
+}
+
+.navbar.opaque .navbar-nav .nav-link {
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .gone {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #quienesSomos,
+    #quienesSomos + .container hr {
+        display: none;
+    }
 }
